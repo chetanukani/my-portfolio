@@ -72,10 +72,6 @@ export const skillsSection: SkillsSectionType = {
           iconifyTag: "devicon:socketio",
         },
         {
-          skillName: "Typescript",
-          iconifyTag: "devicon:typescript",
-        },
-        {
           skillName: "Nestjs",
           iconifyTag: "logos:nestjs",
         },
@@ -92,6 +88,10 @@ export const skillsSection: SkillsSectionType = {
         {
           skillName: "JavaScript",
           iconifyTag: "logos:javascript",
+        },
+        {
+          skillName: "Typescript",
+          iconifyTag: "devicon:typescript",
         },
         {
           skillName: "Reactjs",
@@ -200,12 +200,24 @@ export const experience: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
-    name: "U-Mart",
-    desc: "U-Mart is an online grocery shopping platform where users can easily browse a wide range of grocery items, place orders, and make secure purchases. The platform supports real-time inventory updates, allowing users to view and select available products, and offers a streamlined checkout process with various payment options. Features include order tracking and a responsive design to ensure a smooth shopping experience across all devices.",
+    name: "UMart",
+    desc: "UMart is an online grocery shopping platform where users can easily browse a wide range of grocery items, place orders, and make secure purchases. The platform supports real-time inventory updates, allowing users to view and select available products, and offers a streamlined checkout process with various payment options. Features include order tracking and a responsive design to ensure a smooth shopping experience across all devices.",
     github: "",
     link: "https://umart.tz",
     img: '/img/projects/umart.png',
     skills: [
+      {
+        name: "JavaScript",
+        iconifyTag: "logos:javascript",
+      },
+      {
+        name: "Typescript",
+        iconifyTag: "devicon:typescript",
+      },
+      {
+        name: "Reactjs",
+        iconifyTag: "vscode-icons:file-type-reactjs",
+      },
       {
         name: "Nodejs",
         iconifyTag: "logos:nodejs",
@@ -227,6 +239,120 @@ export const projects: ProjectType[] = [
         iconifyTag: "devicon:socketio",
       },
     ]
+  },
+  {
+    name: "ULearn",
+    desc: "Ulearn is school management system where school and admin can add students, and parents and teacher can access this platform via parents app and teacher app. Parents can track the activity of their child and can do necessary steps. And teacher interface can do all teacher related stuff like attendance, activities, reports. There is one more web interface is vendor. They can do extra sports, music, art etc activities.",
+    github: "",
+    link: "http://ulearn.tz",
+    img: '/img/projects/ulearn.png',
+    skills: [
+      {
+        name: "JavaScript",
+        iconifyTag: "logos:javascript",
+      },
+      {
+        name: "Typescript",
+        iconifyTag: "devicon:typescript",
+      },
+      {
+        name: "Reactjs",
+        iconifyTag: "vscode-icons:file-type-reactjs",
+      },
+      {
+        name: "Nodejs",
+        iconifyTag: "logos:nodejs",
+      },
+      {
+        name: "Expressjs",
+        iconifyTag: "skill-icons:expressjs-dark",
+      },
+      {
+        name: "MongoDB",
+        iconifyTag: "skill-icons:mongodb",
+      },
+      {
+        name: "Redis",
+        iconifyTag: "logos:redis",
+      },
+      {
+        name: "Socketio",
+        iconifyTag: "devicon:socketio",
+      },
+    ]
+  },
+  {
+    name: "PhoneAwayBox",
+    desc: "PhoneAwayBox is platform where students can put their phone using NFC tag system, and attend their class. This system is doing track of student's phone away hours during school times, gives necessary sms to their parents. In this platform student can access this platform via student App to do clock-in and clock-out.",
+    github: "",
+    link: "https://www.phoneawaybox.com/",
+    img: '/img/projects/phoneawaybox.png',
+    skills: [
+      {
+        name: "JavaScript",
+        iconifyTag: "logos:javascript",
+      },
+      {
+        name: "Typescript",
+        iconifyTag: "devicon:typescript",
+      },
+      {
+        name: "Reactjs",
+        iconifyTag: "vscode-icons:file-type-reactjs",
+      },
+      {
+        name: "Nodejs",
+        iconifyTag: "logos:nodejs",
+      },
+      {
+        name: "Expressjs",
+        iconifyTag: "skill-icons:expressjs-dark",
+      },
+      {
+        name: "MongoDB",
+        iconifyTag: "skill-icons:mongodb",
+      },
+      {
+        name: "Redis",
+        iconifyTag: "logos:redis",
+      },
+      {
+        name: "Socketio",
+        iconifyTag: "devicon:socketio",
+      },
+    ]
+  },
+  {
+    name: "NFT Talent",
+    desc: "NFT Talent is NFT marketplace platform where user can upload their art on blockchain and can put on sale, on auction. So, other user can buy those art or can bid on it. Basically art is uploaded on ipfs which provide secure storage support ans then smart contract's function is called passed those details on blockchain via smart contract which we have developed in solidity.",
+    github: "",
+    img: '/img/projects/nfttalent.png',
+    skills: [
+      {
+        name: "JavaScript",
+        iconifyTag: "logos:javascript",
+      },
+      {
+        name: "Solidity",
+        iconifyTag: "logos:solidity",
+      },
+      {
+        name: "Nodejs",
+        iconifyTag: "logos:nodejs",
+      },
+      {
+        name: "Expressjs",
+        iconifyTag: "skill-icons:expressjs-dark",
+      },
+      {
+        name: "MongoDB",
+        iconifyTag: "skill-icons:mongodb",
+      },
+      {
+        name: "Ethereum",
+        iconifyTag: "logos:ethereum",
+      }
+    ]
   }
 ];
 
@@ -238,9 +364,13 @@ export const seoData: SEODataType = {
   image: "https://avatars.githubusercontent.com/u/59178380?v=4",
   url: "https://developer-portfolio-1hanzla100.vercel.app",
   keywords: [
+    "Chetan",
+    "chetan",
     "chetan ukani",
+    "Chetan Patel",
     "Chetan Ukani",
     "chetan-ukani",
+    "Portfolio",
     "chetanukani",
     "Chetan Ukani Portfolio",
   ],
